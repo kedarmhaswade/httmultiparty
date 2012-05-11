@@ -5,13 +5,13 @@ $:.unshift lib unless $:.include?(lib)
 require 'httmultiparty/version'
  
 Gem::Specification.new do |s|
-  s.name        = "httmultiparty"
+  s.name        = "httmultiparty_temp"
   s.version     = HTTMultiParty::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Johannes Wagener"]
-  s.email       = ["johannes@wagener.cc"]
-  s.homepage    = "http://github.com/jwagener/httmultiparty"
-  s.summary     = "HTTMultiParty is a thin wrapper around HTTParty to provide multipart uploads."
+  s.authors     = ["Kedar Mhaswade"]
+  s.email       = ["kedar.mhaswade@gmail.com"]
+  s.homepage    = "http://github.com/kedarmhaswade/httmultiparty"
+  s.summary     = "HTTMultiParty is a thin wrapper around HTTParty to provide multipart uploads. This version is available only to work around RubyMine problems -- I am not able to see :git gems in external libs."
   s.description = "HTTMultiParty is a thin wrapper around HTTParty to provide multipart uploads."
  
   s.required_rubygems_version = ">= 1.3.6"
